@@ -1,0 +1,10 @@
+feature_map,qubits_used,depth,two_qubit_gates,total_gates
+angle,3,7,0,18
+z_r1_linear,3,9,0,24
+z_r2_linear,3,17,0,48
+zz_r1_linear,3,19,6,34
+zz_r2_linear,3,39,14,70
+zz_r3_linear,3,59,22,106
+zz_r1_full,3,25,10,40
+zz_r2_full,3,51,22,82
+pauli_zzz_r1_full,3,33,16,48

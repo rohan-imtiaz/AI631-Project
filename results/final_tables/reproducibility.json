@@ -1,0 +1,64 @@
+{
+  "python": "3.11.9",
+  "qiskit": "2.5.1",
+  "qiskit_aer": "0.17.2",
+  "qiskit_ibm_runtime": "0.48.0",
+  "scikit_learn": "1.8.0",
+  "seed": 0,
+  "train_sizes": [
+    20,
+    40,
+    80,
+    160,
+    320
+  ],
+  "train_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "test_random": 3000,
+  "test_band": 1000,
+  "band_half_width": 0.05,
+  "tuning_grid_qsvm": {
+    "bandwidth": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      1
+    ],
+    "C": [
+      0.1,
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ]
+  },
+  "tuning_grid_rbf": {
+    "gamma": [
+      0.001,
+      0.003,
+      0.01,
+      0.1,
+      0.25,
+      1,
+      10
+    ],
+    "C": [
+      0.1,
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ]
+  },
+  "total_fit_seconds_main": 518.9425904750824
+}

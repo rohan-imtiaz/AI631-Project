@@ -1,0 +1,18 @@
+{
+  "angle": {
+    "spec": {
+      "kind": "angle"
+    },
+    "bandwidth": 0.5,
+    "C": 100.0
+  },
+  "zz": {
+    "spec": {
+      "kind": "zz",
+      "reps": 2,
+      "entanglement": "linear"
+    },
+    "bandwidth": 0.02,
+    "C": 10000.0
+  }
+}

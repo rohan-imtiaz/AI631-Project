@@ -1,0 +1,21 @@
+{
+  "rows": 170660,
+  "safe_fraction": 0.31500644556427987,
+  "capacity_source": "extended column 'phi_Pni_kN'",
+  "label_agreement": 1.0,
+  "test_random": 3000,
+  "test_band": 1000,
+  "pool": 166660,
+  "scaler": {
+    "lower_bounds": [
+      1000.0,
+      0.0,
+      0.0
+    ],
+    "upper_bounds": [
+      14000.0,
+      457.2,
+      304.8
+    ]
+  }
+}

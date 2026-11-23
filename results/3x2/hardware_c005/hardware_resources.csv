@@ -1,0 +1,4 @@
+target,qubits_used,depth,two_qubit_gates,total_gates,shots,circuits,ops
+Aer basis rz sx x cx,3,39,14,70,2048,210,"rz:44, cx:14, sx:12, measure:3, barrier:1"
+ibm_fez ISA (opt level 3),3,80,14,109,2048,210,"rz:59, sx:36, cz:14, measure:3, barrier:1"
+fake_fez ISA (opt level 3),3,80,14,109,2048,210,"rz:59, sx:36, cz:14, measure:3, barrier:1"

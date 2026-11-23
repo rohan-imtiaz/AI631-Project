@@ -1,0 +1,5 @@
+map,target,qubits_used,depth,two_qubit_gates,total_gates,shots,circuits_per_config
+angle,Aer basis rz sx x cx,3,7,0,18,4096,19240
+zz,Aer basis rz sx x cx,3,39,14,70,4096,19240
+angle,fake device (opt level 3),3,7,0,18,4096,19240
+zz,fake device (opt level 3),3,80,14,109,4096,19240

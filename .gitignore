@@ -1,0 +1,24 @@
+# Python and Jupyter caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Large generated data: regenerate with data_generation.ipynb and 01_data/02_extra_sections_generation.ipynb
+25280058_AI631_Project_Dataset_Extended.csv
+extra_sections_data/
+
+# Kaggle and local output archives
+*.zip
+
+# Credentials, in case one ever lands in the folder
+qiskit-ibm.json
+.env
+*.key
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
